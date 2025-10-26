@@ -40,6 +40,5 @@ public class RecetasDeCocina {
         System.out.println("\t Tiempo de preparacion (en min): "+ tiempoDePreparacion);
         System.out.println("\t Dificultad: "+ dificultad);
 
-
     }
 }
