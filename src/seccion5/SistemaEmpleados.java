@@ -38,11 +38,11 @@ public class SistemaEmpleados {
 
         System.out.println("\nDatos del empleado\n");
 
-        System.out.println("Nombre: " +nombreEmpelado);
-        System.out.println("Edad: " + edad);
+        System.out.println("\tNombre: " +nombreEmpelado);
+        System.out.println("\tEdad: " + edad);
         // System.out.println("Salario: " + salario);  Esta opción es válida pero vamos a ver como se formatea
-        System.out.printf("Salario: $%.2f", salario); // De esta manera indico que voy a formatearlo .
-        System.out.println("Es jefe de departamento: " + esJefe);
+        System.out.printf("\tSalario: $%.2f", salario); // De esta manera indico que voy a formatearlo .
+        System.out.println("\tEs jefe de departamento: " + esJefe);
 
     }
 }
