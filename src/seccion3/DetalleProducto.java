@@ -26,9 +26,9 @@ public class DetalleProducto {
         System.out.println(cantidadEnStock);
         System.out.println(hayStock);
 
-        System.out.println("********************");
+        System.out.println("\n********************");
         System.out.println("Cambiando de valores");
-        System.out.println("********************");
+        System.out.println("********************\n");
 
         producto = "Colchon";
         precio = 19999.99;
