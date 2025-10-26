@@ -21,5 +21,6 @@ public class DetallePersona {
         System.out.println(altura);
         System.out.println(nacionalidad);
         System.out.println(estadoCivil);
+
     }
 }
