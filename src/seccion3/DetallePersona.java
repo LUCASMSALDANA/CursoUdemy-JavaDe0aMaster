@@ -1,4 +1,4 @@
-package Seccion2;
+package seccion3;
 //Se solicita crear una clase que se llame DetallePersona.java que realice lo siguiente:
 // Declarar variables y asignarles sus valores correspondiente, seleccionando el tipo de dato correcto para
 // cada variable. Las variables a crear son:

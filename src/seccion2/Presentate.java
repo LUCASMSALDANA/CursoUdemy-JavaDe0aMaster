@@ -1,4 +1,4 @@
-package Seccion2;
+package seccion2;
 
 // Ejercicio:
 // Crear una nueva clase llamada Presentate.java en la  cual debes hacer lo siguiente:
