@@ -6,7 +6,7 @@ public class NumerosAleatoriosFloat {
     public static void main(String[] args) {
         Random random= new Random();
         // El nextFloat genera un numero aleatorio entre 0.0 y 1.0
-        float numeroAlazar ;
+        float numeroAlazar;
 
         System.out.println("***  Numeros aleatorios entre 0 y 10 (random.nextFloat()");
         for(int i= 0 ;i<100;i++){
