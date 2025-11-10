@@ -15,7 +15,7 @@ public class CasaDeLosEspejos {
         if(!tieneMiedoAlaOscuridad && edad>=10){
             System.out.println("Puedes entrar a la casa de los espejos");
         }else{
-            System.out.println("La casa de los espejos podria ser espeluznante para ti");
+            System.out.println("La casa de los espejos podria ser espeluznante para ti !");
         }
     }
 }

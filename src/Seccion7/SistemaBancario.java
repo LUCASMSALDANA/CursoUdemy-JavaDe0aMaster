@@ -13,7 +13,7 @@ public class SistemaBancario {
 
         // Verificamos (aplicando logica inversa)
         if(!salirSistema){
-            System.out.println("Continuamos dentro del sistema");
+            System.out.println("Continuamos dentro del sistema...");
         }else {
             System.out.println("Saliendo del sistema");
         }
