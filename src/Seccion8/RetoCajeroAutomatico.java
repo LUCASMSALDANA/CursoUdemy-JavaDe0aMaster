@@ -64,7 +64,7 @@ public class RetoCajeroAutomatico {
                     System.out.println("Saliendo del Sistema... " );
                     salir=true;
                 }
-                default -> System.out.println("No se reconoce la opción ingresada");
+                default -> System.out.println("No se reconoce la opción ingresada\n");
             }
         }
     }
