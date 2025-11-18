@@ -40,7 +40,7 @@ public class Arreglos {
         System.out.println("Otro tipo de for");
         System.out.println("*****************");
         //otra manera de usar el for:
-        int contador= 0; // para este tipo de for necesitamos definir un contador para saber en que posicion estamos parados
+        int contador= 0;
         for (int numero :enteros){
             System.out.println("El arreglo en la posicion: "+contador++ +" tiene el valor de: "+numero);
         }
