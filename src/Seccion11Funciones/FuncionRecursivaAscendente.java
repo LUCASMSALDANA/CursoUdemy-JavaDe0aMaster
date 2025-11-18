@@ -1,6 +1,6 @@
-package Seccion11;
+package Seccion11Funciones;
 
-public class FuncionRecursivaDescendente {
+public class FuncionRecursivaAscendente {
     public static void main(String[] args) {
         funcionRecursiva(5);
     }
@@ -11,8 +11,10 @@ public class FuncionRecursivaDescendente {
             System.out.println(numero+" ");
         }else{
             //Caso Recursivo
-            funcionRecursiva(numero-1);
             System.out.println(numero +" ");
+            funcionRecursiva(numero-1);
+
         }
     }
+
 }

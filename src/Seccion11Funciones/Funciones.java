@@ -1,4 +1,4 @@
-package Seccion11;
+package Seccion11Funciones;
 
 public class Funciones {
     public static void main(String[] args) {

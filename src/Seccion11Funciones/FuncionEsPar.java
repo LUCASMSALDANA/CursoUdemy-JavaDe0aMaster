@@ -1,4 +1,4 @@
-package Seccion11;
+package Seccion11Funciones;
 
 import java.util.Scanner;
 
