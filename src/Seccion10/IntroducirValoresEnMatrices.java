@@ -27,7 +27,7 @@ public class IntroducirValoresEnMatrices {
             for (int col = 0; col < columnas; col++) {
                 System.out.print(matriz[fil][col]+"  ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

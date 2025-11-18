@@ -18,7 +18,7 @@ public class RecorrerMatrices {
             for (int col = 0; col < COLUMNAS; col++) {
                 System.out.print("Valor["+fil+"]["+col+"]: "+ matriz[fil][col]+" ");
             }
-            System.out.println("");
+            System.out.println();
         }
 
     }
