@@ -19,5 +19,11 @@ public class Listas {
             System.out.println("El día de la semana es: "+ elemento);
         }
 
+        System.out.println("****************\nFunciones Lambda\n");
+
+        //Funciones Lambda (forEach es un metodo de List para recorrer los elementos de dicha lista)
+        miLista.forEach(elemento -> {
+            System.out.println("El día de la semana es: " + elemento);
+        });
     }
 }
