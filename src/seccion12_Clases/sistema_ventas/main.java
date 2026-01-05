@@ -26,6 +26,7 @@ public class main {
         orden3.agregarProductos(sprite);
         orden3.agregarProductos(papas);
 
+
         orden1.mostrarOrden();
         orden2.mostrarOrden();
         orden3.mostrarOrden();

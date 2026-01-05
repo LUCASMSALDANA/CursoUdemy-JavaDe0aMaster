@@ -25,5 +25,10 @@ public class Listas {
         miLista.forEach(elemento -> {
             System.out.println("El día de la semana es: " + elemento);
         });
+
+        //Una forma de mostrar cada elemento de la lista es utilizando el metodo estatico printlnn, para eso lo hacemos de la siguiente manera:
+        System.out.println("****************\nUtilizamos el System.out::println para mostrar los objetos de la lista\n");
+
+        miLista.forEach(System.out::println);  //Esta es otra forma mas eficiente de mostrar cada elemento de la Lista
     }
 }
