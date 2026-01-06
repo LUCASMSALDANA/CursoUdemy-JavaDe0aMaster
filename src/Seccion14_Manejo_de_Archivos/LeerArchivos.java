@@ -1,7 +1,10 @@
 package Seccion14_Manejo_de_Archivos;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.SQLOutput;
+import java.util.List;
 
 public class LeerArchivos {
     public static void main(String[] args) {
@@ -11,13 +14,13 @@ public class LeerArchivos {
 
         //Chequeo que el archivo exista sino lo creo
         if(archivo.exists()){
-            leerArchivo(archivo);
+            leerArchivo(archivo, nombreArchivo);
         }else{
             crearArchivo(archivo);
         }
     }
 
-    private static void leerArchivo(File archivo) {
+    private static void leerArchivo(File archivo, String nombreArchivo) {
         try {
             var entrada = new BufferedReader(new FileReader(archivo));
             String linea = entrada.readLine();
@@ -26,6 +29,10 @@ public class LeerArchivos {
                 linea = entrada.readLine();
             }
             entrada.close();
+            // Otra opción para leer todas las lineas con List
+            System.out.println("\n*** Leer archivos con ReadAllLines ***");
+            List<String> lectura = Files.readAllLines(Paths.get(nombreArchivo));
+            lectura.forEach(System.out::println);
         } catch (IOException e) {
             System.out.println("Ha ocurrido un error al abrir el archivo: "+ e.getMessage());
         }
